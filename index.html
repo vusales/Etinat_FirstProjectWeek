@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Facebook (Open Graph) -->
+  <meta property="og:url" content="index.html">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:see_also" content="index.html">
+  <!-- Google -->
+  <meta itemprop="name" content="">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="index.html">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+  <!-- Some SEO Tags -->
+  <link rel="index" href="index.html"/>
+  <link rel="canonical" href="index.html"/>
+  <meta name="description" content=""/>
+  <meta property="og:description" content=""/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content=" "/>
+  <meta property="og:url" content="index.html"/>
+  <!-- Installation credentials for the Website -->
+  <meta name="theme-color" content="#fff"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="application-name" content=""/>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="64x64">  
+    <script src="https://kit.fontawesome.com/b673856b82.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header id='sticky-header'>
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="#">
+                        <img class="LogoImg" src="./assets/images/logoEtinat.png">
+                    </a>
+                </div>
+
+                <div class="header-menu">
+                    <nav>
+                        <ul class="links">
+                            <li class="nav-logo">
+                                <img src="./assets/images/logoEtinat.png">
+                            </li>
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./products.html">Продукция</a></li>
+                            <li><a href="./forwholesalers.html">Оптовикам</a>
+                            </li>
+                            <li><a href="./about.html">О компании</a></li>
+                            <li><a href="./contact.html">Контакты</a></li>
+
+                            <div class=" mob-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:0507224461">+7 (499) 396-77-77</a>
+                            </div>
+
+                            <div class="mob-cart">
+                                <a>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="itemCount">0</span>
+                                    <span class="priceSpan">$0.00</span>
+
+
+                                </a>
+                            </div>
+                            <div class="mob-shop">
+                                <div class="cart-inner">
+                                    <div class="cart-wrap">
+                                        <div class="cart-empty">
+                                            <span>No products in the cart</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="header-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:0507224461">+7 (499) 396-77-77</a>
+                </div>
+
+                <div class="header-cart">
+                    <div class="cart-inner">
+                        <a>
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="itemCount">0</span>
+                            <span class="priceSpan">$0.00</span>
+
+                            <div class="cart-wrap">
+                                <div class="cart-empty">
+                                    <span>No products in the cart</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="header-burger">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section id="colored-glasses">
+        <div class="container">
+            <div class="glass-content">
+                <div class="textBox">
+                    <h2>Это больше, чем просто стакан.<br>Это, <span id="brand-name">Etinat</span></h2>
+                    <p>Мы приносим вам десятки ценностей в стакане всего за 10 рублей.</p>
+                    <a href="" id="learnMore-button"> Узнать больше</a>
+                    <ul class="thumb">
+                        <li>
+                            <img src="./assets/images/purpleGlass.png" alt="" onmouseover="glassSlider('./assets/images/purpleGlass.png'); changeCircleColor('#6b517c'); changeButtonColor('#6b517c'); changeBrandColor('#6b517c')">
+                        </li>
+                        
+                        <li>
+                            <img src="./assets/images/yellowGlass.png" alt="" onmouseover="glassSlider('./assets/images/yellowGlass.png'); changeCircleColor('#C3A82F'); changeButtonColor('#C3A82F'); changeBrandColor('#C3A82F')">
+                        </li>
+            
+                        <li>
+                            <img src="./assets/images/pinkGlass.png" alt="" onmouseover="glassSlider('./assets/images/pinkGlass.png'); changeCircleColor('#8f495e'); changeButtonColor('#8f495e'); changeBrandColor('#8f495e')">
+                        </li>
+            
+                        <li>
+                            <img src="./assets/images/greyGlass.png" alt="" onmouseover="glassSlider('./assets/images/greyGlass.png'); changeCircleColor('#898372'); changeButtonColor('#898372'); changeBrandColor('#898372')">
+                        </li>
+            
+            
+                        <li>
+                            <img src="./assets/images/redGlass.png" alt="" onmouseover="glassSlider('./assets/images/redGlass.png'); changeCircleColor('#8b4949'); changeButtonColor('#8b4949'); changeBrandColor('#8b4949')">
+                        </li>
+            
+                        <li>
+                            <img src="./assets/images/lilacGlass.png" alt="" onmouseover="glassSlider('./assets/images/lilacGlass.png'); changeCircleColor('#6e5e6e'); changeButtonColor('#6e5e6e'); changeBrandColor('#6e5e6e')">
+                        </li>
+            
+                    </ul>
+                </div>
+    
+                <div class="imgBox">
+                   
+                  <div class="imgBox-wrapper">
+                    <div class="ruble">
+                            <img src="./assets/images/pricetag.svg" alt="">
+                     </div>
+                      <img src="./assets/images/redGlass.png" alt="" id="etinat">
+                 </div>
+            <div class="circle"></div>
+    
+                </div>
+            </div>
+        </div>
+        
+        
+       
+    </section>
+
+    
+    <section class=" architecture-section">
+        <div class="container">
+            <div class="row">
+                <div id="head-arrow" class="col-12 d-flex justify-content-center mb-3 ">
+                    <h1>
+                        <span class="miracle-glass">Etinat</span> это
+                        <img src="./assets/images/arrow.png" alt="">
+                        
+                    </h1>
+                </div>
+            </div>
+            <div class="glass-architecture">
+                <div class="imgButtons">
+                    <div class="glass-cut">
+                       <img src="./assets/images/transparentGlass.png" alt="">
+                    <div class="btn1-wrap">
+                       <button class="button btn1">1</button>
+                       <div class="mob-explain one">
+                           <span>Одноразовый бумажный стакан ёмкостью 250мл. выполненный из целлюлозного картона!</span>
+                       </div>
+                    </div>
+                    <div class="btn2-wrap">
+                        <button class="button btn2">2</button>
+                        <div class="mob-explain two">
+                        <span>Одноразовая крышка-ложка выполненная из целлюлозного картона!</span>
+                            
+                        </div>
+                     </div>
+                     <div class="btn3-wrap">
+                        <button class="button btn3">3</button>
+                        <div class="mob-explain three">
+                            <span>Мембрана выполненная из целлюлозного картона!</span>
+                        </div>
+                     </div>
+                     <div class="btn4-wrap">
+                        <button class="button btn4">4</button>
+                        <div class="mob-explain four">
+                            <span>Вкуснейшие и качественные ингредиенты без глутамата и ГМО!</span>
+                        </div>
+                     </div>
+                     <div class="btn5-wrap">
+                        <button class="button btn5">5</button>
+                        <div class="mob-explain five">
+                            <span>Сладкая смесь на основе "Стевии"!</span>
+                        </div>
+                     </div>
+                    </div>
+                    
+                </div>
+
+                <div class="architecture-explanation">
+                    <div class="button1-text active">
+                        <img src="./assets/images/arrow.png" alt="">
+                        <p><strong>Одноразовый бумажный стакан ёмкостью 250мл. выполненный из целлюлозного картона!</strong>
+                        </p>
+                        <ol>
+                            <li>При нагревании не выделяет вредных веществ, отсутствует неприятный запах</li>
+                            <li>Минимальный шанс обжечься</li>
+                            <li>Крутой дизайн</li>
+                        </ol>
+                    </div>
+
+                    <div class="button2-text">
+                        <p><strong>Одноразовая крышка-ложка выполненная из целлюлозного картона!</strong></p>
+                        <ol>
+                            <li> Верхняя защитная крышка является дополнительно "КРЫШКОЙ-ЛОЖКОЙ", которая после вскрытия складывается по линиям сгиба и используется для размешивания напитка</li>
+                            <li>Запрессовывается в стакан без применения клея</li>
+                        </ol>
+                    </div>
+
+                    <div class="button3-text">
+                        <p><strong>Мембрана выполненная из целлюлозного картона!</strong></p>
+                        <ol>
+                            <li>Удерживает основную массу завариваемых ингредиентов</li>
+                            <li>Запрессовывается в стакан без применения клея</li>
+                        </ol>
+                    </div>
+
+                    <div class="button4-text">
+                        <p><strong>Вкуснейшие и качественные ингредиенты без глутамата и ГМО!</strong></p>
+                        <ol>
+                            <li>Только листовые чаи — чёрный, зелёный</li>
+                            <li>Проверенная рецептура</li>
+                            <li> Строгая порционность</li>
+                        </ol>
+                    </div>
+
+                    <div class="button5-text">
+                        <p><strong>Сладкая смесь на основе "Стевии"!</strong></p>
+                        <ol>
+                            <li>Низкая калорийность</li>
+                            <li>Натуральность происхождения</li>
+                            <li>Крепится только к чаю и кофе.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section class="compare-section mb-3">
+        <div class="container">
+            <div class="row comparison">
+                <div class="col">
+                    <p class="text-center comparison-head">В чем наше отличие?</p>
+                    <p class="text-center comparison-quote">"Качество это результат тщательно созданной культурной среды"</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mb-3 values-text">
+                    <img src="./assets/images/hand.svg">
+                    <h4>Стабильный</h4>
+                    <p>Сохраняет свою изначальную форму, бережёт ваши руки, отсутствует посторонний запа</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 values-text">
+                    <img src="./assets/images/pot.png">
+                    <h4>Удобный</h4>
+                    <p>Если заполнить  кипятком - заварится вкусный и ароматный чай, ничего лишнего.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 values-text">
+                    <img src="./assets/images/bulb.png">
+                   
+                    <h4>Уникальный</h4>
+                    <p>Мешалка в комплекте, выполненная из того же картона, что и сам чудо-стакан.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 values-text">
+                    <img src="./assets/images/tree.png">
+                    
+                    <h4>Практичный</h4>
+                    <p>Вкуснейшие ингредиенты уже внутри, нет нужды покупать их отдельно.</p>
+                </div>
+                
+                <div class="row m-auto">
+                    <div class="col d-flex justify-content-center">
+                        <button type="button" id="more-button">Показать еще</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row second-values m-auto">
+                <div class="col-lg-3 col-md-6 values-text">
+                    <img src="./assets/images/leaf.png">
+                    
+                    <h4>Консервативный</h4>
+                    <p>Мембрана которая позволяет использовать листовые чаи с фруктами и лепестками цветов не позволяя чаинкам всплывать.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 values-text">
+                    <img src="./assets/images/coffe-cup.webp">
+                    <h4>Удобный</h4>
+                    <p>К донышку прикреплён сошет с сладкой смесью. Удобно держать, удобно взять с собой. Презентабельный внешний вид.</p>
+                </div>
+                <div class="col-lg-3 col-md-6  values-text">
+                    <img src="./assets/images/eco.png">
+                    <h4>Экологичный</h4>
+                    <p>Экологически безопасен, вносит свою лепту в сохранение окружающей среды, время разложения - до 3х месяцев..</p>
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <button type="button" id="less-button">Скрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="awards container mt-5">
+        <div class="row">
+            <div class="col-lg-7 col-sm-12 awards-gallery"></div>
+            <div class="col-lg-5 col-sm-12 awards-text">
+                <div>
+                    <div>
+                        <h1>Наши награды</h1>
+                        <p>Мы всегда проявляем активность на выставках и форумах касающихся питания. За 7 лет нашей работы, мы можем похвастаться наградами с многих тематических выставок и форумов, что характеризует наш продукт признанным сообществом быстрого питания.</p>
+                    </div>
+                    
+                      
+                    <div style="max-width:150px;" class="awards-imgs">
+                        <img class="slides animate-top" src="./assets/images/awards1.jpg" style="width:100%">
+                        <img class="slides animate-bottom" src="./assets/images/awards3.jpg" style="width:100%">
+                        <img class="slides animate-top" src="./assets/images/awards2.jpg" style="width:100%">
+                        <img class="slides animate-bottom" src="./assets/images/awards4.jpg" style="width:300px; height: 200px">
+                    </div>
+                      
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hashtags">
+        <div class="hashtag-text">
+            <h3>#etinatGlass</h3>
+            <p>Вы пробовали наши удивительные стаканы? Поделитесь с нами своими моментами. Следите за нами в социальных сетях и не забудьте поставить наш хэштег</p>
+        </div>
+        <div class="hashtags-inner">
+            <div class="prev">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hashtag-card one">
+                            <div class="card-overlay">
+                                <div class="card-social">
+
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+    
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hashtag-card two">
+                            <div class="card-overlay">
+                                <div class="card-social">
+
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+    
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hashtag-card three">
+                            <div class="card-overlay">
+                                <div class="card-social">
+
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+    
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hashtag-card four">
+                            <div class="card-overlay">
+                                <div class="card-social">
+
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+    
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hashtag-card five">
+                            <div class="card-overlay">
+                                <div class="card-social">
+
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+    
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-wrap">
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="next">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+    </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-inner">
+            <div class="row footer-row">
+                <div class="col-lg-3 col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer">
+                       <a id="footerLogo" href="./index.html"> <img class="LogoImg" src="./assets/images/logoEtinat.png"></a>
+                        <p>Этинат - лучшее решение, позволяющее сэкономить ваши деньги и время и получить отличный вкус простым и полезным способом.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer d-flex flex-column">
+                        <h4 class="footer-heading">Контакты</h4>
+                        <p>142184, Московская область, Подольский район, улица Большая Академическая, дом 6, корпус 1 пом. 2</p>
+                        <a class="contact-a" href="./contact.html">Схема проезда</a>
+                        <a class="contact-a" href="mailto:someone@yoursite.com">Свяжитесь с нами по электронной почте</a>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer">
+                        <h4 class="footer-heading">Часы работы</h4>
+                        <p>Пн. - пт. с 9.00 до 18.00 (временно)</p>
+                        <p>Суббота: выходной <br>
+                           Воскресенье: выходной</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  footer-col  d-flex align-items-center">
+                    <div class="footer-layer">
+                        <h4 class="footer-heading">Etinat видео</h4>
+                        <div class="video">
+
+                            <img class="video-backgrnd" src="./assets/images/play.svg" alt="playsvg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2021 Русский стакан Россия, ООО "Русский стакан", ОГРН 1197746738530</p>
+            </div>
+            <button id="toTop" title="Go to top" class="">
+
+            </button>
+        </div>
+    </footer>
+
+
+    <div class="video-popup">
+        <div class="video-backdrop">
+            <div class="video-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GjA2d5R6Ses"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
+    <script>
+         // Glasses Slider - Main
+         function glassSlider(value){
+            document.querySelector('#etinat').src = value;
+        }
+
+        function changeCircleColor(color){
+            var circle = document.querySelector(".circle");
+            circle.style.background = color;
+        }
+
+        function changeButtonColor(color){
+            var button = document.querySelector("#learnMore-button");
+            button.style.background = color;
+        }
+
+        function changeBrandColor(color){
+            var brandName = document.querySelector("#brand-name");
+            brandName.style.color = color;
+        }
+    </script>
+</body>
+
+</html>

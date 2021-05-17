@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукция</title>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="64x64">  
+    <script src="https://kit.fontawesome.com/b673856b82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id='products-sticky-header'>
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="#">
+                        <img class="LogoImg" src="./assets/images/logoEtinat.png">
+                    </a>
+                </div>
+
+                <div class="header-menu">
+                    <nav>
+                        <ul class="links">
+                            <li class="nav-logo">
+                                <img src="./assets/images/logoEtinat.png">
+                            </li>
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./products.html">Продукция</a></li>
+                            <li><a href="./forwholesalers.html">Оптовикам</a>
+                            </li>
+                            <li><a href="./about.html">О компании</a></li>
+                            <li><a href="./contact.html">Контакты</a></li>
+
+                            <div class=" mob-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:0507224461">+7 (499) 396-77-77</a>
+                            </div>
+
+                            <div class="mob-cart">
+                                <a>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="itemCount">0</span>
+                                    <span class="priceSpan">$0.00</span>
+
+
+                                </a>
+                            </div>
+                            <div class="mob-shop">
+                                <div class="cart-inner">
+                                    <div class="cart-wrap">
+                                        <div class="cart-empty">
+                                            <span>Корзина пуста</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="header-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:0507224461">+7 (499) 396-77-77</a>
+                </div>
+
+                <div class="header-cart">
+                    <div class="cart-inner">
+                        <a>
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="itemCount">0</span>
+                            <span class="priceSpan">$0.00</span>
+
+                            <div class="cart-wrap">
+                                <div class="cart-empty">
+                                    <span>No products in the cart</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="header-burger">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section id="allitems">
+        <section id="products">
+            <div class="container">
+                <div class="row filter-button-group text-center">
+                    <a id="starter" role="button" data-filter="*" class="col-md-2 col-sm isActive"><img
+                            src="./assets/images/shopping-bag.svg">
+                        <p>Показать все</p>
+                    </a>
+                    <a role="button" id="starter" data-filter=".tea" class="col-md-2 col-sm"> <img
+                            src="assets/images/black-tea.png" alt="">
+                        <p style="transform: translateX(-3px);">Чай</p></a>
+                    <a role=" button" data-filter=".coffee" class="col-md-2 col-sm"><img src="./assets/images/coffee.png"
+                                alt="">
+                            <p>Кофе</p>
+                    </a>
+                    <!-- <a role="button" data-filter=".cocktail" class="col-md-2 col-sm"><img src="./assets/images/cocktail.png" style="padding-right:2px" alt=""><p>Cocktail</p></a>
+                <a role="button" data-filter=".milk" class="col-md-2 col-sm"><img src="./assets/images/milkshake.png" alt=""><p>Milkshake</p></a>
+                <a role="button" data-filter=".soup" class="col-md-2 col-sm"> <img src="./assets/images/soup.png" alt=""><p>Soup</p></a> -->
+                </div>
+            </div>
+            <div class="container">
+                <div class="row grid justify-content-center">
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row disclaimer">
+                <div class="col-xl-4 col-lg-6 ">
+                    <img src="./assets/images/zakaz.jpg" alt="minimum order">
+                    <h1>Минимальный заказ </h1>
+                    <p>
+                        - Минимальный заказ с доставкой по Москве 350 стаканчиков(коробка).
+                        Для других городов обсуждается отдельно.</br>
+                        - Доставка, а так же минимальный заказ в другие города обговариваются
+                        отдельно.</br>
+                        - Часы работы и приёма заказов Пн. - Пт. с 9.00 до 18.00 (Временно).
+                    </p>
+                </div>
+                <div class="col-xl-4 col-lg-6 ">
+                    <img src="./assets/images/dostavka.jpg" alt="minimum order">
+                    <h1>Доставка</h1>
+                    <p>
+                        - Доставка по Москве и МО осуществляется на следующий день
+                        после оформления заказа и его подтверждения.
+                    </br>
+                        В пределах МКАД - 300 руб.
+                        За МКАД - 300 руб. + 40 руб. за КМ.
+                    </br>
+                        - Доставка, а так же минимальный заказ в другие города обговариваются
+                        отдельно.
+                    </br>
+                        - Часы работы и приёма заказов Пн. - Пт. с 9.00 до 18.00 (Временно).
+                    </p>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <img src="./assets/images/oplata.jpg" alt="minimum order">
+                    <h1>Оплата</h1>
+                    <p>
+                        - Оплата наличными водителю/менеджеру
+                        при доставке на адрес.</br>
+                        - Оплата переводом на карту при подтверждении заказа.</br>
+                        - Оплата на расчётный счёт компании.</br>
+                        - Часы работы и приёма заказов Пн. - Пт. с 9.00 до 18.00 (Временно).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-inner">
+            <div class="row footer-row">
+                <div class="col-lg-3 col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer">
+                       <a id="footerLogo" href="./index.html"> <img class="LogoImg" src="./assets/images/logoEtinat.png"></a>
+                        <p>Этинат - лучшее решение, позволяющее сэкономить ваши деньги и время и получить отличный вкус простым и полезным способом.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer d-flex flex-column">
+                        <h4 class="footer-heading">Контакты</h4>
+                        <p>142184, Московская область, Подольский район, улица Большая Академическая, дом 6, корпус 1 пом. 2</p>
+                        <a class="contact-a" href="./contact.html">Схема проезда</a>
+                        <a class="contact-a" href="mailto:someone@yoursite.com">Свяжитесь с нами по электронной почте</a>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6  footer-col d-flex align-items-center">
+                    <div class="footer-layer">
+                        <h4 class="footer-heading">Часы работы</h4>
+                        <p>Пн. - пт. с 9.00 до 18.00 (временно)</p>
+                        <p>Суббота: выходной <br>
+                           Воскресенье: выходной</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  footer-col  d-flex align-items-center">
+                    <div class="footer-layer">
+                        <h4 class="footer-heading">Etinat видео</h4>
+                        <div class="video">
+
+                            <img class="video-backgrnd" src="./assets/images/play.svg" alt="playsvg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2021 Русский стакан Россия, ООО "Русский стакан", ОГРН 1197746738530</p>
+            </div>
+            <button id="toTop" title="Go to top" class="">
+
+            </button>
+        </div>
+    </footer>
+
+
+    <div class="video-popup">
+        <div class="video-backdrop">
+            <div class="video-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GjA2d5R6Ses"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/filter.js"></script>
+
+    <script>
+        $('.header-burger').on('click', function () {
+            $('.header-burger').toggleClass('active')
+            $('.header-menu nav').toggleClass('active')
+            if ($('.header-menu nav').hasClass('active')) {
+                $('body').css('overflow-y', 'hidden')
+                $('#products-sticky-header').css("opacity", '1');
+                $('#toTop').removeClass('active')
+            } else {
+                $('body').css('overflow-y', 'unset')
+
+            }
+        })
+
+        $(window).resize(function () {
+            if ($(this).width() >= 1000) {
+                $('.header-burger').removeClass('active')
+                $('.header-menu nav').removeClass('active')
+            }
+        });
+
+        $('.video').on('click', function () {
+            $('.video-popup').show(300)
+            $('.video-popup').addClass('active')
+
+
+        })
+
+        $(document).mouseup(function (e) {
+            if ($('.video-popup').hasClass('active') && !$('.video-content').is(e.target) && $('.video-content')
+                .has(e.target).length === 0) {
+                $('.video-popup').removeClass('active');
+                $('.video-popup').hide(300)
+
+            }
+        });
+        
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("products-sticky-header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+        }
+        if( $('.header-menu nav').hasClass('active')) {
+            $('#products-sticky-header').removeClass("sticky");
+        }
+
+        if( $('.header-menu nav').hasClass('active')){
+            $('body').css('overflow','unset')
+
+        }
+
+
+        $('.mob-cart').on('mouseover', function () {
+            $('.mob-shop .cart-wrap').css('display', 'block')
+        })
+
+        $(document).ready(function () {
+            $('.mob-cart').on('mouseover',function () {
+                $('.mob-shop .cart-wrap').css('display', 'block')
+            });
+        });
+        $(window).resize(function () {
+            if ($(this).width() >= 800) {
+                $('.mob-shop .cart-wrap').css('display', 'none')
+            }
+
+        });
+    </script>
+</body>
+
+</html>
