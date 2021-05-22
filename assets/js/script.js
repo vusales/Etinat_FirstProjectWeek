@@ -1,12 +1,13 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCGVaa529xszf5ed8Kcto9l7lZen22XiyI",
-    authDomain: "project-1-b2088.firebaseapp.com",
-    databaseURL: "https://project-1-b2088-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "project-1-b2088",
-    storageBucket: "project-1-b2088.appspot.com",
-    messagingSenderId: "239478406556",
-    appId: "1:239478406556:web:c5b5dad00ee7115b535c59"
-};
+    apiKey: "AIzaSyCa8JsE-0avRG2WFfYTXkEKOUcJHldIgwY",
+    authDomain: "project-week-1-wholesalers.firebaseapp.com",
+    databaseURL: "https://project-week-1-wholesalers-default-rtdb.firebaseio.com",
+    projectId: "project-week-1-wholesalers",
+    storageBucket: "project-week-1-wholesalers.appspot.com",
+    messagingSenderId: "636173511594",
+    appId: "1:636173511594:web:37f6519d38cb51f4a999d3",
+    measurementId: "G-17TB609XB2"
+  };
 
 firebase.initializeApp(firebaseConfig);
 
@@ -153,9 +154,10 @@ $(document).ready(function(){
         if($('.header-menu nav').hasClass('active')){
             $('body').css('overflow-y','hidden')
             $('#sticky-header').css("opacity",'1');
-            $('#toTop').removeClass('active')
+            $('#toTop').css('visibility','hidden')
         }else {
             $('body').css('overflow-y','unset')
+            $('#toTop').css('visibility','visible')
 
         }
     })
